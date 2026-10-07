@@ -1,0 +1,103 @@
+{
+  "lotes": [],
+  "vendas": [
+    {
+      "data": "07/10/2026",
+      "comprador": "karla",
+      "destino": ":Ibatiba-ES",
+      "quantidade_kg": 200.0,
+      "preco_kg": 5.0,
+      "receita": 1000.0,
+      "frete": 50.0
+    }
+  ],
+  "despesas": [],
+  "caminhoes": [],
+  "mudas": [],
+  "aplicacoes": [],
+  "produtos": [
+    {
+      "codigo": "P001",
+      "nome": "Fertilizante",
+      "categoria": "adubo",
+      "quantidade": 20.0,
+      "custo_unitario": 85.0,
+      "unidade": "kg",
+      "estoque_minimo": 0
+    },
+    {
+      "codigo": "P002",
+      "nome": "Produto fitossanitário A",
+      "categoria": "defensivo",
+      "quantidade": 5.0,
+      "custo_unitario": 120.0,
+      "unidade": "L",
+      "estoque_minimo": 0
+    },
+    {
+      "codigo": "P003",
+      "nome": "Herbicida",
+      "categoria": "controle_mato",
+      "quantidade": 8.0,
+      "custo_unitario": 95.0,
+      "unidade": "L",
+      "estoque_minimo": 0
+    },
+    {
+      "codigo": "P004",
+      "nome": "Mangueira",
+      "categoria": "irrigacao",
+      "quantidade": 100.0,
+      "custo_unitario": 3.5,
+      "unidade": "m",
+      "estoque_minimo": 0
+    },
+    {
+      "codigo": "P005",
+      "nome": "Cano PVC",
+      "categoria": "irrigacao",
+      "quantidade": 30.0,
+      "custo_unitario": 28.0,
+      "unidade": "m",
+      "estoque_minimo": 0
+    },
+    {
+      "codigo": "P006",
+      "nome": "Caixa de tomate",
+      "categoria": "embalagem",
+      "quantidade": 100.0,
+      "custo_unitario": 8.0,
+      "unidade": "un",
+      "estoque_minimo": 0
+    }
+  ],
+  "fila_cargas": [],
+  "proximo_id_carga": 1,
+  "historico": [
+    "06/10/2026 19:18 - Produto cadastrado: Fertilizante (P001).",
+    "06/10/2026 19:18 - Produto cadastrado: Produto fitossanitário A (P002).",
+    "06/10/2026 19:18 - Produto cadastrado: Herbicida (P003).",
+    "06/10/2026 19:18 - Produto cadastrado: Mangueira (P004).",
+    "06/10/2026 19:18 - Produto cadastrado: Cano PVC (P005).",
+    "06/10/2026 19:18 - Produto cadastrado: Caixa de tomate (P006).",
+    "07/10/2026 14:15 - Venda para karla: 200.0 kg."
+  ],
+  "tarefas": [],
+  "rotas": [
+    {
+      "origem": "Propriedade",
+      "destino": "Galpão",
+      "distancia_km": 3.0
+    },
+    {
+      "origem": "Propriedade",
+      "destino": "CEASA",
+      "distancia_km": 20.0
+    },
+    {
+      "origem": "Galpão",
+      "destino": "CEASA",
+      "distancia_km": 18.0
+    }
+  ]
+}
